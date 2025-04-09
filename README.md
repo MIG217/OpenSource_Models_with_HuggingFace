@@ -27,18 +27,18 @@ Open Source Models with Hugging Face/
 
 ### NLP Task
 
-#### 💡 Function
+**💡 Function**
 
 A simple chatbot that generates responses to user input using a pretrained NLP model.
 
-#### 🧠 Model
+**🧠 Model**
 
 - **Model Name**: `facebook/blenderbot-400M-distill`
 - **Model Type**: A text generation model based on the **Transformer** architecture
 - **Source**: Developed by Meta (Facebook), part of the BlenderBot series, and distilled to improve inference efficiency
 - **URL**: https://huggingface.co/facebook/blenderbot-400M-distill
 
-#### 🔁 Input and Output
+**🔁 Input and Output**
 
 | Component | Description |
 |-----------|-------------|
@@ -47,18 +47,18 @@ A simple chatbot that generates responses to user input using a pretrained NLP m
 
 ### Translation
 
-#### 💡 Function
+**💡 Function**
 
 Translates text from one language to another using a pretrained NLP model.
 
-#### 🧠 Model
+**🧠 Model**
 
 - **Model Name**: `facebook/nllb-200-distilled-600M`
 - **Model Type**: A multilingual machine translation model based on the Transformer architecture
 - **Source**: Developed by Meta (Facebook), part of the No Language Left Behind (NLLB) project, distilled for efficiency
 - **URL**: https://huggingface.co/facebook/nllb-200-distilled-600M
 
-#### 🔁 Input and Output
+**🔁 Input and Output**
 
 | Component | Description |
 |-----------|-------------|
@@ -68,18 +68,18 @@ Translates text from one language to another using a pretrained NLP model.
 
 ### Summarization
 
-#### 💡 Function
+**💡 Function**
 
 Generates a concise summary of a longer text using a pretrained NLP model.
 
-#### 🧠 Model
+**🧠 Model**
 
 - **Model Name**: `facebook/bart-large-cnn`
 - **Model Type**: A sequence-to-sequence text summarization model based on the Transformer architecture (specifically the BART model)
 - **Source**: Developed by Meta (Facebook), fine-tuned for summarization on the CNN/DailyMail dataset
 - **URL**: https://huggingface.co/facebook/bart-large-cnn
 
-#### 🔁 Input and Output
+**🔁 Input and Output**
 
 | Component | Description |
 |-----------|-------------|
@@ -88,20 +88,18 @@ Generates a concise summary of a longer text using a pretrained NLP model.
 
 ### Sentence Embeddings
 
-### 🧷 Sentence Embedding
-
-#### 💡 Function
+**💡 Function**
 
 Generates dense vector representations (embeddings) of sentences for downstream tasks like similarity comparison or semantic search.
 
-#### 🧠 Model
+**🧠 Model**
 
 - **Model Name**: (uses models from the `sentence-transformers` library, such as `all-MiniLM-L6-v2`)
 - **Model Type**: A sentence embedding model based on the **Transformer** architecture (e.g., BERT or its variants)
 - **Source**: 
 - **URL**: https://huggingface.co/sentence-transformers/all-MiniLM-L6-v2
 
-#### 🔁 Input and Output
+**🔁 Input and Output**
 
 | Component | Description |
 |-----------|-------------|
